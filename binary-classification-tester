@@ -16,3 +16,7 @@ bin_class_test=function(x1,y1){
   output1$kappa_sd<-kap1_sd
   return(output1)
 }
+#Example
+y<-rbinom(100,1,.5)
+y_hat<-rbinom(100,1,.6)
+bin_class_test(y,y_hat)
