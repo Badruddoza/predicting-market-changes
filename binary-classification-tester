@@ -1,7 +1,7 @@
 #Binary classifier predictivity tester
 ## Syed Badruddoza v1.0
 bin_class_test=function(x1,y1){
-  tab1=table(x,y)
+  tab1=table(x1,y1)
   a1=tab1[2,2];b1=tab1[2,1];c1=tab1[1,2];d1=tab1[1,1];
   den1=(a1+b1+c1+d1);acc1=(a1+d1)/den1;
   sen1=a1/(a1+c1); spec1=d1/(b1+d1); 
